@@ -1,0 +1,359 @@
+html, body { height:100% }
+body {
+	margin: 0;
+	font: 14px/17px  Arial, Helvetica, sans-serif;
+	color: #333333;
+	background: #001746; 
+}
+
+
+h1,h2,h3,h4 {
+	margin: 0;
+}
+
+
+
+h2 {
+	font-size: 24px;
+	line-height: 29px;
+	color: #005e94;
+	margin: 0 0 20px;
+}
+
+h3 {
+	font-size: 17px;
+	padding: 4px 0 4px 27px;
+	line-height: 22px;
+	color: #005e94;
+	margin: 0 0 10px;
+	background: url('..//img/letter.png') no-repeat;
+	letter-spacing: -1px;
+}
+
+p {
+	margin: 0 0 18px;
+
+}
+
+a {
+	text-decoration: none;
+	color: #008bb7;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+
+	border-style: none;
+	vertical-align: top;
+}
+
+
+.clearfix:before,
+.clearfix:after{
+	content:'';
+	display:table;
+}
+.clearfix:after{clear:both;}
+
+ul,ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+fieldset {
+	padding: 0;
+	margin: 0;
+	border: none; 
+}
+
+#wrapper {
+	background: url('../img/bg.png') 50% 0 no-repeat;
+	min-height: 100%;
+	display: flex;
+}
+.wrapper-holder {
+	background: url('../img/footer.png') 50% 100% repeat-x;
+	overflow: hidden;
+	align-items: stretch;
+	width: 100%;
+}
+
+
+.wrapper-holder:after {
+	background: url('../img/bublles.png') 50% 100% repeat-x;
+	content: "";
+	opacity: 0.2;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: -230px;
+	left: 0px;
+}
+
+.wrapper-frame {
+	margin: 0 auto;
+	width: 818px;
+	position: relative;
+	z-index: 2;
+	align-items: stretch;
+} 
+
+.logo {
+	text-indent: -9999px;
+	overflow: hidden;
+	display: block;
+	background: url('..//img/logo.png') no-repeat;
+	width: 284px;
+	height: 108px; 
+	float: left;
+}
+
+.logo a{
+	display: block;
+	height: 100%;
+}
+
+header {
+	padding: 30px 0 0; 
+	margin: 0 0 10px;
+}
+
+nav {
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 30px 0 0;
+}
+
+nav li {
+	display: inline-block;
+	padding: 12px;
+	position: relative;
+	margin: 0 10px 0 0;
+}
+
+nav li :before {
+	background: #fff;
+	opacity: 0.3;
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 10px;
+
+}
+
+nav a {
+	color: #fff;
+}
+
+
+.main-holder {
+	position: relative;
+	background: #fff;
+	border-radius: 10px;
+
+
+}
+
+.main-holder:before {
+	border: 8px solid #fff;
+	opacity: 0.2;
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: -8px;
+	left: -8px;
+	border-radius: 18px;
+}
+
+#main {
+	position: relative;
+}
+
+#content {
+	float: left;
+	width: 483px;
+	padding: 50px 20px 0 35px;
+}
+
+.box-1{
+	margin: 0 0 42px;
+}
+
+.button {
+	display: inline-block;
+	margin: 0 22px 0 0;
+	padding: 14px 16px 14px 12px;
+	border-radius: 10px;
+	border: 1px solid #dcf5fc ; 
+	background: #def6fc url("gradient-bg.png") repeat-x top;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background: -webkit-gradient(
+		linear,
+		left top, left bottom,
+		from(#fff),
+		to(#def6fc)
+	);
+	background: -webkit-linear-gradient(
+		top,
+		#fff,
+		#def6fc
+	);
+	background: -moz-linear-gradient(
+		top,
+		#fff,
+		#def6fc
+	);
+	background: -o-linear-gradient(
+		top,
+		#fff,
+		#def6fc
+	);
+	background: linear-gradient(
+		top,
+		#fff,
+		#def6fc
+	);
+
+	box-shadow: 0 -1px 0 1px #fff inset;
+}
+
+.more {
+	display: inline-block;
+}
+
+
+article {
+	margin: 0 0 10px;
+} 
+
+ article img {
+	float: right;
+} 
+
+.image-right-1 {
+	margin: -20px 0 0;
+
+}
+
+.image-right-2 {
+	margin: -15px 0 0;
+
+}
+
+.eartha {
+	position: absolute;
+	top: -65px;
+	left: -195px;
+}
+
+.eartha-left {
+	position: absolute;
+	top: -46px;
+	right: -73px;
+}
+
+#sidebar {
+	float: right;
+	width: 225px;
+	padding: 32px 20px 0 35px; 
+}
+
+.sidebar-image {
+	margin: 0 0 60px;
+}
+
+.newsletter {
+	background: #f8f8f8;
+	padding: 18px;
+	border-radius: 10px;
+}
+
+.newsletter p {
+	margin-bottom: 15px; 
+}
+
+input[type="email"] {
+	margin: 0 0 10px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px 35px;
+	border:none;
+	border: 1px solid #d3d3d3;
+	color: #d3d3d3;
+	background: url('..//img/letter-icon.png') no-repeat 8px 8px;
+}
+
+
+input[type="submit"] {
+	float: right;
+	color: #008bb7;
+	border: none;
+	background: none;
+	font-size: 16px;
+	border: 1px solid #d3d3d3; 
+	border-radius: 7px;
+	cursor: pointer;
+	background: #ededed url("gradient-bg.png") repeat-x top;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background: -webkit-gradient(
+		linear,
+		left top, left bottom,
+		from(#fff),
+		to(#ededed)
+	);
+	background: -webkit-linear-gradient(
+		top,
+		#fff,
+		#ededed
+	);
+	background: -moz-linear-gradient(
+		top,
+		#fff,
+		#ededed
+	);
+	background: -o-linear-gradient(
+		top,
+		#fff,
+		#ededed
+	);
+	background: linear-gradient(
+		top,
+		#fff,
+		#ededed
+	);
+	box-shadow: 0 0 0 1px #fff inset;
+	padding: 9px 15px;
+}
+
+footer {
+	position: relative;
+	height: 200px;
+
+}
+
+.footer-image {
+	margin: -220px 0 0 0; 
+
+}
+
+.bublles {
+	margin: -1050px 0 0 0;
+	opacity: 0.2;
+	
+}
